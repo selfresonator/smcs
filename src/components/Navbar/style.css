@@ -1,0 +1,85 @@
+.navbar-normal {
+  height: 72px;
+  width: 100%;
+  top: 0;
+  padding: 0;
+  position: fixed;
+  background-color: #BADDD9;
+  z-index: 100; }
+
+@media (min-width: 768px) {
+  .navbar-normal {
+    text-align: center;
+    height: 85px; } }
+
+.navbar-normal .title {
+  display: inline-block;
+  position: absolute;
+  color: #FFFFFF;
+  font-family: "Nunito Sans";
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 27px;
+  left: 25px; }
+
+@media (min-width: 768px) {
+  .navbar-normal .title {
+    top: 6px;
+    left: 60px; } }
+
+.navbar-normal .menu-overlay {
+  height: 100%;
+  width: 100%;
+  background-color: #BADDD9;
+  position: fixed;
+  z-index: 100;
+  transition: all .3s ease;
+  left: 0; }
+
+.navbar-normal .menu-overlay .menu-btn-close {
+  color: #7FB8B3;
+  font-size: 1.9em;
+  position: absolute;
+  top: 20px;
+  right: 26px; }
+
+.navbar-normal .menu-overlay a {
+  text-decoration: none;
+  color: silver; }
+
+.navbar-normal .menu-btn {
+  color: #7FB8B3;
+  font-size: 1.3em;
+  position: absolute;
+  top: 24px;
+  right: 26px; }
+
+@media (min-width: 768px) {
+  .navbar-normal .menu-btn {
+    display: none; } }
+
+.navbar-normal .menu-normal {
+  height: 45px;
+  display: grid;
+  margin-top: 20px; }
+
+@media (max-width: 767px) {
+  .navbar-normal .menu-normal {
+    display: none; } }
+
+.navbar-normal .menu-shrink {
+  height: 60px;
+  position: relative;
+  top: -49px; }
+
+@media (max-width: 767px) {
+  .navbar-normal .menu-shrink {
+    display: none; } }
+
+.navbar-normal .hidden {
+  opacity: 0;
+  left: 100%; }
+
+@media (min-width: 768px) {
+  .navbar-normal .hidden {
+    height: 0; } }

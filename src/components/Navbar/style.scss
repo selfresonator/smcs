@@ -1,0 +1,99 @@
+$bg: #BADDD9;
+$bg: #BADDD9;
+$text: #F8F9FA;
+$nav-text: #7FB8B3;
+
+.navbar-normal {
+    height: 72px;
+    width: 100%;
+    top: 0;
+    padding: 0;
+    position: fixed;
+    background-color: $bg;
+    z-index: 100;
+
+    @media (min-width: 768px) {
+        text-align: center;
+        height: 85px;
+    }
+
+    .title {
+        display: inline-block;
+        position: absolute;
+        color: #FFFFFF;
+        font-family: "Nunito Sans";
+        font-size: 22px;
+        font-weight: 800;
+        line-height: 27px;
+        left: 25px;
+
+        @media (min-width: 768px) {
+            top: 6px;
+            left: 60px;
+        }
+    }
+
+    .menu-overlay {
+        height: 100%;
+        width: 100%;
+        background-color: $bg;
+        position: fixed;
+        z-index: 100;
+        transition: all .3s ease;
+        left: 0;
+
+        .menu-btn-close {
+            color: $nav-text;
+            font-size: 1.9em;
+            position: absolute;
+            top: 20px;
+            right: 26px;
+        }
+
+        a {
+            text-decoration: none;
+            color: silver;
+        }
+    }
+
+    .menu-btn {
+        color: $nav-text;
+        font-size: 1.3em;
+        position: absolute;
+        top: 24px;
+        right: 26px;
+
+        @media (min-width: 768px) {
+            display: none;
+        }
+    }
+
+    .menu-normal {
+        height: 45px;
+        display: grid;
+        margin-top: 20px;
+
+        @media (max-width: 767px) {
+            display: none;
+        }
+    }
+
+    .menu-shrink {
+        height: 60px;
+        position: relative;
+        top: -49px;
+
+        @media (max-width: 767px) {
+            display: none;
+        }
+    }
+
+    .hidden {
+        opacity: 0;
+        left: 100%;
+
+        @media (min-width: 768px) {
+            height: 0;
+        }
+    }
+}

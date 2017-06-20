@@ -15,7 +15,6 @@ class FrontPage extends Component {
   render() {
     return (
       <section className="front-page">
-        <div className="background"></div>
         <Navbar/>
         <Footer/>
       </section>
