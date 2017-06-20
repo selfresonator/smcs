@@ -1,0 +1,106 @@
+$bg: #BADDD9;
+$text: #F8F9FA;
+$nav-text: #7FB8B3;
+$plain-white: #FFFFFF;
+$btn-text: #6DABA4;
+
+.content {
+    top: 52px;
+    height: 500px;
+    background-color: $bg;
+    color: $plain-white;
+    position: relative;
+    padding: 0;
+    text-align: center;
+
+    @media (min-width: 768px) {
+        top: 120px;
+        height: 525px;
+        position: static;
+    }
+
+    .mobile-space {
+        width: 100%;
+        height: auto;
+
+        @media (min-width: 768px) {
+            display: none;
+        }
+    }
+
+    .contain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 16px;
+
+        @media (min-width: 768px) {
+            margin: auto;
+            text-align: center;
+            width: 768px;
+        }
+
+        @media (min-width: 980px) {
+            width: 980px;
+        }
+
+        .app-icon {
+            content:url("AppIcon.png");
+            width: 110px;
+
+            @media (min-width: 768px) {
+                width: 90px;
+                content:url("AppIcon@2x.png");
+            }
+        }
+
+        .para {
+            letter-spacing: 1px;
+            width: auto;
+            font-weight: 800;
+            letter-spacing: 1px;
+            line-height: 36px;
+            font-size: 28px;
+            text-align: center;
+
+            @media (min-width: 768px) {
+                width: 555px;
+                font-size: 36px;
+                line-height: 54px;
+                margin: auto;
+            }
+
+            .sed {
+                font-weight: 200;
+            }
+        }
+
+        .btn-main {
+            margin: 30px;
+            border-radius: 6px;
+            background-color: $text;
+            color: $btn-text;
+            width: 100px;
+            border: none;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 17px;
+            letter-spacing: 1px;
+            font-weight: 600;
+            line-height: 23px;
+        }
+
+        .window-1 {
+            content:url("Window-1.png");
+            width: 90%;
+
+            @media (min-width: 768px) {
+                max-width: 1100px;
+                content:url("Window-1@2x.png");
+            }
+        }
+    }
+}

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Navbar from '../Navbar/index.js';
 import Footer from '../Footer/index.js';
+import PageContent from './PageContent/index.js';
 
 import './style.css';
 
@@ -16,6 +17,7 @@ class FrontPage extends Component {
     return (
       <section className="front-page">
         <Navbar/>
+        <PageContent/>
         <Footer/>
       </section>
     );
