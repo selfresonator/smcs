@@ -11,7 +11,7 @@ const SignUp = () => (
     <form action="">
       <input className="input" placeholder="Your Name" type="text"/>
       <input className="input" placeholder="Email Address" type="text"/>
-      <input className="input" type="submit"/>
+      <input className="input btn" value="Get Started" type="submit"/>
     </form>
     
     <footer className="terms">By clicking “Sign Up” button you agree to our <a href="" className="link">Terms of Use</a></footer>

@@ -40,10 +40,36 @@ $btn-text: #6DABA4;
         border: 1px solid #E7E8EA;
         border-radius: 6px;
         background-color: #F8F9FA;
+        font-weight: 200;
+
+        &::-webkit-input-placeholder{
+            font-family: "Nunito Sans";
+            color: #B9BDC3;
+            font-size: 17px;
+            font-weight: 200;
+        }
+
+        &[type="text"] {
+            font-family: "Nunito Sans";
+            font-size: 17px;
+            padding-left: 15px;
+            box-sizing: border-box;
+        }
 
         @media (min-width: 768px) {
             margin: 0 10px;
         }
+    }
+
+    .btn {
+        background-color: $btn-text;
+        color: #FFFFFF;
+        font-family: "Nunito Sans";
+        font-size: 17px;
+        font-weight: 400;
+        letter-spacing: 1.5px;
+        line-height: 23px;
+        text-align: center;
     }
 
     .terms {

@@ -31,7 +31,7 @@ const Footer = () => (
       <ul className="footer-list subscribe">
         <li className="list-title subscribe-title">SUBSCRIBE TO OUR NEWSLETTER</li>
         <li>
-          <input className="email" type="text"/>
+          <input className="email" placeholder="&#xf003;    Email Address" type="text"/>
         </li>
         <li></li>
       </ul>
