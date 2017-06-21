@@ -3,7 +3,7 @@ $text: #F8F9FA;
 $nav-text: #7FB8B3;
 $plain-white: #FFFFFF;
 $btn-text: #6DABA4;
-$terms-text
+//$terms-text
 
 .content {
     top: 52px;
@@ -109,95 +109,6 @@ $terms-text
             height: 110px;
         }
 
-        .space {
-            height: auto;
-            width: 100%;
-            margin: auto;
-
-            @media (min-width: 768px) {
-                //position: relative;
-                text-align: center;
-                width: 100%;
-            }
-
-            @media (min-width: 980px) {
-                //width: 980px;
-                max-width: 1300px;
-            }
-
-
-            .row {
-                height: auto;
-                width: auto;
-                color: black;
-                text-align: center;
-
-                .page-info {
-                    margin-bottom: 60px;
-                    padding: 0;
-                    height: 100%;
-
-                    @media (min-width: 768px) {
-                        display: inline-block;
-                        width: 50%;
-                    }
-
-                    .base {
-                        height: 70px;
-                        width: 70px;
-                        box-shadow: 0 6px 12px 0 rgba(32,33,39,0.08);
-                    }
-
-                    .clock {
-                        content:url("icon-clock.svg");
-                        //height: 60px;
-                    }
-
-                    .lock {
-                        content:url("icon-lock.svg");
-                        //height: 60px;
-                    }
-
-                    .box-title {
-                        height: 30px;
-                        color: #282B31;
-                        font-size: 36px;
-                        line-height: 54px;
-                        text-align: center;
-
-                        .bold {
-                            font-weight: 800;
-                        }
-                    }
-
-                    .box-info {
-                        color: #676C75;
-                        font-size: 16px;
-                        line-height: 28px;
-                        text-align: center;
-
-                        @media (min-width: 768px) {
-                            padding: 0 10px;
-                            display: inline-block;
-                            width: 75%;
-                        }
-                    }
-                }
-
-                .left {
-                    @media (min-width: 768px) {
-                        float: left;
-                    }
-                }
-
-                .right {
-                    @media (min-width: 768px) {
-                        float: right;
-                    }
-                }
-            }
-        }
-
         .three {
             background-color: $text;
             width: 100%;
@@ -267,7 +178,7 @@ $terms-text
                 }
 
                 .win {
-                    content:url("Window-2.png");
+                    content:url("TwoLine/Window-2.png");
                     //width: 80%;
                     height: 80%;
 
@@ -328,7 +239,6 @@ $terms-text
                 margin: 32px auto;
                 height: 15px;
                 color: #B9BDC3;
-                font-family: "Nunito Sans";
                 font-size: 11px;
                 line-height: 15px;
 

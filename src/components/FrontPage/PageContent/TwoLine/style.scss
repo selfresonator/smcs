@@ -1,0 +1,90 @@
+$bg: #BADDD9;
+$text: #F8F9FA;
+$nav-text: #7FB8B3;
+$plain-white: #FFFFFF;
+$btn-text: #6DABA4;
+//$terms-text
+
+.three {
+    background-color: $text;
+    width: 100%;
+    height: auto;
+    position: relative;
+
+
+    @media (min-width: 768px) {
+        height: 768px;
+        width: 100%;
+    }
+
+    .top {
+        top: 100px;
+    }
+
+    .info {
+        height: 100%;
+
+        @media (min-width: 768px) {
+            display: inline-block;
+            padding: 0 30px;
+            width: 40%;
+            float: left;
+            position: relative;
+        }
+
+        .box-title {
+            //height: 30px;
+            color: #282B31;
+            font-family: "Nunito Sans";
+            font-size: 36px;
+            line-height: 54px;
+            text-align: left;
+            margin: 50px 0 40px;
+
+            .bold {
+                font-weight: 800;
+            }
+        }
+
+        .box-info {
+            color: #676C75;
+            font-family: "Nunito Sans";
+            font-size: 16px;
+            line-height: 28px;
+            text-align: left;
+            margin: 10px 0 40px;
+
+            @media (min-width: 768px) {
+                display: inline-block;
+            }
+        }
+    }
+
+    .img {
+        height: auto;
+        //width: 50%;
+
+        @media (min-width: 768px) {
+            right: 5px;
+            overflow: hidden;
+            height: 600px;
+            width: 50%;
+            display: inline;
+            position: absolute;
+        }
+
+        .win {
+            content:url("Window-2.png");
+            //width: 80%;
+            height: 80%;
+
+            @media (max-width: 767px) {
+                width: 95%;
+
+                //display: inline;
+                //position: absolute;
+            }
+        }
+
+    }
+}
