@@ -6,8 +6,56 @@ $btn-text: #6DABA4;
 //$terms-text
 
 .footer {
-    height: 330px;
+    height: auto;
     bottom: 0;
     width: 100%;
-    background-color: $nav-text;
+    background-color: $btn-text;
+    text-align: left;
+
+    @media (min-width: 768px) {
+        height: 330px;
+    }
+
+    .container {
+        margin: auto;
+        width: 83%;
+        height: 75%;
+        top: 56px;
+
+        @media (min-width: 768px) {
+            position: relative;
+            top: 20px;
+        }
+
+        .footer-list {
+            list-style: none;
+            text-align: center;
+            padding: 0;
+
+            @media (min-width: 768px) {
+                text-align: left;
+                display: inline-grid;
+                width: 18%;
+                top: 0;
+                position: relative;
+            }
+
+            .list-title {
+                margin: 32px 11px 11px;
+                font-size: 14px;
+                font-weight: 600;
+                height: 20px;
+                letter-spacing: 1px;
+            }
+
+            .list-item {
+                margin: 11px;
+                font-size: 13px;
+            }
+        }
+    }
+
+    .line {
+        width: 85%;
+    }
 }

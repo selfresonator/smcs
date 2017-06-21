@@ -4,7 +4,35 @@ import './style.css';
 
 const Footer = () => (
   <section className="footer">
-    <div>Hello</div>
+    <div className="container">
+      <ul className="footer-list">
+        <li className="list-title">LINK</li>
+        <li className="list-item">Apples</li>
+        <li className="list-item">Oranges</li>
+        <li className="list-item">Watermelons</li>
+      </ul>
+      <ul className="footer-list">
+        <li className="list-title">LINK</li>
+        <li className="list-item">Treehouses</li>
+        <li className="list-item">Rope Swings</li>
+        <li className="list-item">Waterslides</li>
+      </ul>
+      <ul className="footer-list">
+        <li className="list-title">LINK</li>
+        <li className="list-item">Company Info</li>
+        <li className="list-item">Customer Info</li>
+      </ul>
+      <ul className="footer-list">
+        <li className="list-title">LINK</li>
+        <li className="list-item">Contact Us</li>
+        <li className="list-item">Informational Links</li>
+      </ul>
+    </div>
+    
+    <div className="subscribe"></div>
+    
+    <hr className="line"/>
+    
   </section>
 );
 
