@@ -28,7 +28,7 @@
 @media (min-width: 768px) {
   .footer .container .footer-list {
     text-align: left;
-    display: inline-grid;
+    display: inline-table;
     width: 16%;
     top: 0;
     position: relative; } }
@@ -49,6 +49,10 @@
   height: 90%;
   display: inline; }
 
+@media (max-width: 1134px) {
+  .footer .subscribe .subscribe-title {
+    margin-bottom: 20px; } }
+
 .footer .subscribe .email {
   margin-top: 25px;
   height: 50px;
@@ -60,8 +64,29 @@
 @media (min-width: 768px) {
   .footer .subscribe .email {
     width: 120%;
-    margin: -14px 0 20px 11px;
-    margin-left: 11px; } }
+    margin: 0 0 20px 11px; } }
+
+@media (max-width: 1134px) and (min-width: 768px) {
+  .footer .subscribe .email {
+    margin-top: 20px; } }
 
 .footer .line {
   width: 90%; }
+
+.footer .signature {
+  text-align: center;
+  margin: 24px auto;
+  width: 90;
+  font-size: 11px; }
+
+@media (min-width: 768px) {
+  .footer .signature .seaworthy {
+    left: 5%;
+    display: inline;
+    position: absolute; } }
+
+@media (min-width: 768px) {
+  .footer .signature .copyright {
+    right: 5%;
+    display: inline;
+    position: absolute; } }

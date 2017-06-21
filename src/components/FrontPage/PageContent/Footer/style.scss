@@ -33,7 +33,7 @@ $btn-text: #6DABA4;
 
             @media (min-width: 768px) {
                 text-align: left;
-                display: inline-grid;
+                display: inline-table;
                 width: 16%;
                 top: 0;
                 position: relative;
@@ -59,6 +59,12 @@ $btn-text: #6DABA4;
         height: 90%;
         display: inline;
 
+        .subscribe-title {
+            @media (max-width: 1134px) {
+                margin-bottom: 20px;
+            }
+        }
+
         .email {
             margin-top: 25px;
             height: 50px;
@@ -70,13 +76,40 @@ $btn-text: #6DABA4;
 
             @media (min-width: 768px) {
                 width: 120%;
-                margin: -14px 0 20px 11px;
-                margin-left: 11px;
+                margin: 0 0 20px 11px;
+            }
+
+            @media (max-width: 1134px) and (min-width: 768px) {
+                margin-top: 20px;
             }
         }
     }
 
     .line {
         width: 90%;
+    }
+
+    .signature {
+        text-align: center;
+        margin: 24px auto;
+        width: 90;
+        font-size: 11px;
+
+        .seaworthy {
+            @media (min-width: 768px) {
+                left: 5%;
+                display: inline;
+                position: absolute;
+            }
+        }
+
+        .copyright {
+            @media (min-width: 768px) {
+
+                right: 5%;
+                display: inline;
+                position: absolute;
+            }
+        }
     }
 }

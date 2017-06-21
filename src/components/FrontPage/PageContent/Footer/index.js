@@ -29,7 +29,7 @@ const Footer = () => (
       </ul>
       
       <ul className="footer-list subscribe">
-        <li className="list-title">SUBSCRIBE TO OUR NEWSLETTER</li>
+        <li className="list-title subscribe-title">SUBSCRIBE TO OUR NEWSLETTER</li>
         <li>
           <input className="email" type="text"/>
         </li>
@@ -39,6 +39,10 @@ const Footer = () => (
     
     <hr className="line"/>
     
+    <div className="signature">
+      <p className="seaworthy">Built to be Seaworthy by SeaMonster Studios</p>
+      <p className="copyright">&copy;2017 SeaMonster Studios. All rights reserved.</p>
+    </div>
   </section>
 );
 
