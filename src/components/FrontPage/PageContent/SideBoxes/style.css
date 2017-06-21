@@ -34,10 +34,10 @@
   box-shadow: 0 6px 12px 0 rgba(32, 33, 39, 0.08); }
 
 .side-boxes .row .page-info .clock {
-  content: url("icon-clock.svg"); }
+  background: url("icon-clock.svg"); }
 
 .side-boxes .row .page-info .lock {
-  content: url("icon-lock.svg"); }
+  background-image: url("icon-lock.svg"); }
 
 .side-boxes .row .page-info .box-title {
   height: 30px;
