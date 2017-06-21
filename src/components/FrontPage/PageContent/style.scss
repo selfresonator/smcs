@@ -25,8 +25,9 @@ $btn-text: #6DABA4;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        //margin: 16px;
-            width: 100%;
+        width: 100%;
+        top: 20px;
+        position: relative;
 
         @media (min-width: 768px) {
             margin: auto;
@@ -55,6 +56,7 @@ $btn-text: #6DABA4;
             line-height: 36px;
             font-size: 28px;
             text-align: center;
+            margin: auto 16px;
 
             @media (min-width: 768px) {
                 width: 555px;
@@ -98,146 +100,6 @@ $btn-text: #6DABA4;
 
         .divider {
             height: 110px;
-        }
-
-        .three {
-            background-color: $text;
-            width: 100%;
-            height: auto;
-            position: relative;
-
-
-            @media (min-width: 768px) {
-                height: 768px;
-                width: 100%;
-            }
-
-            .top {
-                top: 100px;
-            }
-
-            .info {
-                height: 100%;
-
-                @media (min-width: 768px) {
-                    display: inline-block;
-                    padding: 0 30px;
-                    width: 40%;
-                    float: left;
-                    position: relative;
-                }
-
-                .box-title {
-                    //height: 30px;
-                    color: #282B31;
-                    font-family: "Nunito Sans";
-                    font-size: 36px;
-                    line-height: 54px;
-                    text-align: left;
-                    margin: 50px 0 40px;
-
-                    .bold {
-                        font-weight: 800;
-                    }
-                }
-
-                .box-info {
-                    color: #676C75;
-                    font-family: "Nunito Sans";
-                    font-size: 16px;
-                    line-height: 28px;
-                    text-align: left;
-                    margin: 10px 0 40px;
-
-                    @media (min-width: 768px) {
-                        display: inline-block;
-                    }
-                }
-            }
-
-            .img {
-                height: auto;
-                //width: 50%;
-
-                @media (min-width: 768px) {
-                    right: 5px;
-                    overflow: hidden;
-                    height: 600px;
-                    width: 50%;
-                    display: inline;
-                    position: absolute;
-                }
-
-                .win {
-                    content:url("TwoLine/Window-2.png");
-                    //width: 80%;
-                    height: 80%;
-
-                    @media (max-width: 767px) {
-                        width: 95%;
-
-                        //display: inline;
-                        //position: absolute;
-                    }
-                }
-
-            }
-        }
-
-        .sign-up {
-            height: auto;
-
-            @media (min-width: 768px) {
-                height: 440px;
-            }
-
-            .header {
-                margin: auto;
-                color: #282B31;
-                letter-spacing: 1px;
-                line-height: 50px;
-                text-align: center;
-                margin-top: 120px;
-                font-size: 36px;
-
-                @media (min-width: 768px) {
-                    line-height: 54px;
-                    width: 632px;
-                    font-size: 35px;
-                    height: 50px;
-                    margin-bottom: 60px;
-                }
-
-                .sign {
-                    font-weight: 800;
-                }
-            }
-
-            .input {
-                margin: 10px;
-                height: 50px;
-                width: 243px;
-                border: 1px solid #E7E8EA;
-                border-radius: 6px;
-                background-color: #F8F9FA;
-
-                @media (min-width: 768px) {
-                    margin: 0 10px;
-                }
-            }
-
-            .terms {
-                margin: 32px auto;
-                height: 15px;
-                color: #B9BDC3;
-                font-size: 11px;
-                line-height: 15px;
-
-                .link {
-                    display: inline;
-                    text-decoration-color: #B9BDC3;
-                }
-            }
         }
     }
 }

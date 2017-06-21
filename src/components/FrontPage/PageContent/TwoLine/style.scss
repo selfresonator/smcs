@@ -11,7 +11,6 @@ $btn-text: #6DABA4;
     height: auto;
     position: relative;
 
-
     @media (min-width: 768px) {
         height: 768px;
         width: 100%;
@@ -35,11 +34,10 @@ $btn-text: #6DABA4;
         .box-title {
             //height: 30px;
             color: #282B31;
-            font-family: "Nunito Sans";
             font-size: 36px;
             line-height: 54px;
             text-align: left;
-            margin: 50px 0 40px;
+            margin: 50px 0 40px 16px;
 
             .bold {
                 font-weight: 800;
@@ -52,7 +50,7 @@ $btn-text: #6DABA4;
             font-size: 16px;
             line-height: 28px;
             text-align: left;
-            margin: 10px 0 40px;
+            margin: 10px 0 40px 16px;
 
             @media (min-width: 768px) {
                 display: inline-block;
@@ -62,7 +60,7 @@ $btn-text: #6DABA4;
 
     .img {
         height: auto;
-        //width: 50%;
+        margin-bottom: 50px;
 
         @media (min-width: 768px) {
             right: 5px;
@@ -75,16 +73,11 @@ $btn-text: #6DABA4;
 
         .win {
             content:url("Window-2.png");
-            //width: 80%;
             height: 80%;
 
             @media (max-width: 767px) {
                 width: 95%;
-
-                //display: inline;
-                //position: absolute;
             }
         }
-
     }
 }

@@ -13,12 +13,11 @@ $btn-text: #6DABA4;
     }
 
     .header {
-        margin: auto;
         color: #282B31;
         letter-spacing: 1px;
         line-height: 50px;
         text-align: center;
-        margin-top: 120px;
+        margin: 80px 16px 60px;
         font-size: 36px;
 
         @media (min-width: 768px) {
@@ -48,7 +47,7 @@ $btn-text: #6DABA4;
     }
 
     .terms {
-        margin: 32px auto;
+        margin: 32px auto 65px;
         height: 15px;
         color: #B9BDC3;
         font-size: 11px;

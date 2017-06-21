@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './style.scss';
+import './style.css';
 
 const TwoLine = () => (
   <section className="three">
