@@ -34,7 +34,11 @@ const Footer = () => (
         <li>
           <input className="email" placeholder="&#xf003;    Email Address" type="text"/>
         </li>
-        <li></li>
+        <li className="footer-icons">
+          <div className="social left-social fa fa-twitter"></div>
+          <div className="social fa fa-facebook"></div>
+          <div className="social right-social fa fa-instagram"></div>
+        </li>
       </ul>
     </div>
     

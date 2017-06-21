@@ -82,6 +82,29 @@
   .footer .subscribe .email {
     margin-top: 20px; } }
 
+.footer .subscribe .footer-icons {
+  margin: 32px 11px; }
+
+@media (min-width: 768px) {
+  .footer .subscribe .footer-icons {
+    margin: 8px 11px 0; } }
+
+.footer .subscribe .footer-icons .social {
+  text-align: center;
+  vertical-align: bottom;
+  height: 28px;
+  width: 38px;
+  padding-top: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: rgba(248, 249, 250, 0);
+  display: inline-block; }
+
+.footer .subscribe .footer-icons .left-social {
+  border-radius: 6px 0 0 6px; }
+
+.footer .subscribe .footer-icons .right-social {
+  border-radius: 0 6px 6px 0; }
+
 .footer .line {
   width: 90%; }
 
