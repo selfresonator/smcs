@@ -27,9 +27,15 @@ const Footer = () => (
         <li className="list-item">Contact Us</li>
         <li className="list-item">Informational Links</li>
       </ul>
+      
+      <ul className="footer-list subscribe">
+        <li className="list-title">SUBSCRIBE TO OUR NEWSLETTER</li>
+        <li>
+          <input className="email" type="text"/>
+        </li>
+        <li></li>
+      </ul>
     </div>
-    
-    <div className="subscribe"></div>
     
     <hr className="line"/>
     

@@ -55,6 +55,28 @@ $btn-text: #6DABA4;
         }
     }
 
+    .subscribe {
+        width: 26% !important;
+        height: 90%;
+        display: inline;
+
+        .email {
+            margin-top: 40px;
+            //text-align: center;
+            height: 50px;
+            width: 250px;
+            border: 1px solid #E7E8EA;
+            border-radius: 6px;
+            background-color: #F8F9FA;
+
+
+            @media (min-width: 768px) {
+                margin: -10px 0 20px 11px;
+                margin-left: 11px;
+            }
+        }
+    }
+
     .line {
         width: 85%;
     }
