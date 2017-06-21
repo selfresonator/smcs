@@ -26,6 +26,7 @@ const Footer = () => (
         <li className="list-title">LINK</li>
         <li className="list-item">Contact Us</li>
         <li className="list-item">Informational Links</li>
+        <li className="list-item">Terms and Conditions</li>
       </ul>
       
       <ul className="footer-list subscribe">
