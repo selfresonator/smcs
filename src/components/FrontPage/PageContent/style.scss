@@ -209,6 +209,10 @@ $btn-text: #6DABA4;
                 width: 100%;
             }
 
+            .top {
+                top: 100px;
+            }
+
             .info {
                 height: 100%;
 
@@ -217,6 +221,7 @@ $btn-text: #6DABA4;
                     padding: 0 30px;
                     width: 40%;
                     float: left;
+                    position: relative;
                 }
 
                 .box-title {
@@ -252,10 +257,10 @@ $btn-text: #6DABA4;
                 //width: 50%;
 
                 @media (min-width: 768px) {
-                    right: -50px;
+                    right: 5px;
                     overflow: hidden;
                     height: 600px;
-                    width: 60%;
+                    width: 50%;
                     display: inline;
                     position: absolute;
                 }

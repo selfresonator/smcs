@@ -176,6 +176,9 @@
     height: 768px;
     width: 100%; } }
 
+.content .contain .three .top {
+  top: 100px; }
+
 .content .contain .three .info {
   height: 100%; }
 
@@ -184,7 +187,8 @@
     display: inline-block;
     padding: 0 30px;
     width: 40%;
-    float: left; } }
+    float: left;
+    position: relative; } }
 
 .content .contain .three .info .box-title {
   color: #282B31;
@@ -214,10 +218,10 @@
 
 @media (min-width: 768px) {
   .content .contain .three .img {
-    right: -50px;
+    right: 5px;
     overflow: hidden;
     height: 600px;
-    width: 60%;
+    width: 50%;
     display: inline;
     position: absolute; } }
 
