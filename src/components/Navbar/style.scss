@@ -30,6 +30,11 @@ $nav-text: #7FB8B3;
 
         @media (min-width: 768px) {
             top: 6px;
+            left: 25px;
+        }
+
+        @media (min-width: 980px) {
+            //top: 6px;
             left: 60px;
         }
     }

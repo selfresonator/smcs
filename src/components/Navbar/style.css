@@ -26,6 +26,10 @@
 @media (min-width: 768px) {
   .navbar-normal .title {
     top: 6px;
+    left: 25px; } }
+
+@media (min-width: 980px) {
+  .navbar-normal .title {
     left: 60px; } }
 
 .navbar-normal .menu-overlay {
