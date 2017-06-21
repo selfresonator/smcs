@@ -20,7 +20,7 @@ class PageContent extends Component {
           <div className="btn-main">Button</div>
           <img className="window-1" alt="logo"/>
           
-          <div className="divider"></div>
+          <section className="divider"></section>
           
           {/*Side Boxes*/}
           <section className="space">
@@ -51,8 +51,18 @@ class PageContent extends Component {
             </div>
           </section>
           
-          <section>
+          <section className="sign-up">
+            <p className="header">
+              <span className="sign">Sign up</span> Integer posuere erat a aliquet.
+            </p>
+  
+            <form action="">
+              <input className="input" placeholder="Your Name" type="text"/>
+              <input className="input" placeholder="Email Address" type="text"/>
+              <input className="input" type="submit"/>
+            </form>
             
+            <footer className="terms">By clicking “Sign Up” button you agree to our <a href="" className="link">Terms of Use</a></footer>
           </section>
           
         </div>

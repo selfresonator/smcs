@@ -3,6 +3,7 @@ $text: #F8F9FA;
 $nav-text: #7FB8B3;
 $plain-white: #FFFFFF;
 $btn-text: #6DABA4;
+$terms-text
 
 .content {
     top: 52px;
@@ -278,6 +279,63 @@ $btn-text: #6DABA4;
                     }
                 }
 
+            }
+        }
+
+        .sign-up {
+            height: auto;
+
+            @media (min-width: 768px) {
+                height: 440px;
+            }
+
+            .header {
+                margin: auto;
+                color: #282B31;
+                letter-spacing: 1px;
+                line-height: 50px;
+                text-align: center;
+                margin-top: 120px;
+                font-size: 36px;
+
+                @media (min-width: 768px) {
+                    line-height: 54px;
+                    width: 632px;
+                    font-size: 35px;
+                    height: 50px;
+                    margin-bottom: 60px;
+                }
+
+                .sign {
+                    font-weight: 800;
+                }
+            }
+
+            .input {
+                margin: 10px;
+                height: 50px;
+                width: 243px;
+                border: 1px solid #E7E8EA;
+                border-radius: 6px;
+                background-color: #F8F9FA;
+
+                @media (min-width: 768px) {
+                    margin: 0 10px;
+                }
+            }
+
+            .terms {
+                margin: 32px auto;
+                height: 15px;
+                color: #B9BDC3;
+                font-family: "Nunito Sans";
+                font-size: 11px;
+                line-height: 15px;
+
+                .link {
+                    display: inline;
+                    text-decoration-color: #B9BDC3;
+                }
             }
         }
     }
