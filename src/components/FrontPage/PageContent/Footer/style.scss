@@ -3,7 +3,6 @@ $text: #F8F9FA;
 $nav-text: #7FB8B3;
 $plain-white: #FFFFFF;
 $btn-text: #6DABA4;
-//$terms-text
 
 .footer {
     height: auto;
@@ -18,7 +17,7 @@ $btn-text: #6DABA4;
 
     .container {
         margin: auto;
-        width: 83%;
+        width: 90%;
         height: 75%;
         top: 56px;
 
@@ -35,7 +34,7 @@ $btn-text: #6DABA4;
             @media (min-width: 768px) {
                 text-align: left;
                 display: inline-grid;
-                width: 18%;
+                width: 16%;
                 top: 0;
                 position: relative;
             }
@@ -56,28 +55,28 @@ $btn-text: #6DABA4;
     }
 
     .subscribe {
-        width: 26% !important;
+        width: 28% !important;
         height: 90%;
         display: inline;
 
         .email {
-            margin-top: 40px;
-            //text-align: center;
+            margin-top: 25px;
             height: 50px;
-            width: 250px;
+            width: 100%;
             border: 1px solid #E7E8EA;
             border-radius: 6px;
             background-color: #F8F9FA;
 
 
             @media (min-width: 768px) {
-                margin: -10px 0 20px 11px;
+                width: 120%;
+                margin: -14px 0 20px 11px;
                 margin-left: 11px;
             }
         }
     }
 
     .line {
-        width: 85%;
+        width: 90%;
     }
 }
