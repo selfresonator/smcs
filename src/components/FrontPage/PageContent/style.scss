@@ -20,30 +20,21 @@ $btn-text: #6DABA4;
         position: relative;
     }
 
-    .mobile-space {
-        width: 100%;
-        height: auto;
-
-        @media (min-width: 768px) {
-            display: none;
-        }
-    }
-
     .contain {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 16px;
+        //margin: 16px;
+            width: 100%;
 
         @media (min-width: 768px) {
             margin: auto;
             text-align: center;
-            width: 768px;
         }
 
-        @media (min-width: 980px) {
-            width: 980px;
+        @media (min-width: 1380px) {
+            width: 88%;
         }
 
         .app-icon {

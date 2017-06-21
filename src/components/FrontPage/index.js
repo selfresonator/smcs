@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Navbar from '../Navbar/index.js';
-import Footer from '../Footer/index.js';
+// import Footer from './PageContent/Footer/index.js';
 import PageContent from './PageContent/index.js';
 
 import './style.css';
@@ -18,7 +18,7 @@ class FrontPage extends Component {
       <section className="front-page">
         <Navbar/>
         <PageContent/>
-        <Footer/>
+        {/*<Footer/>*/}
       </section>
     );
   }

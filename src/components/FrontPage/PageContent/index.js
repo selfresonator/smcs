@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import SideBoxes from './SideBoxes';
 import SignUp from './SignUp';
 import TwoLine from './TwoLine';
+import Footer from './Footer/index.js';
 
 import './style.css';
 
@@ -28,6 +29,7 @@ class PageContent extends Component {
           <SideBoxes/>
           <TwoLine/>
           <SignUp/>
+          <Footer/>
         </div>
         
       </section>

@@ -1,0 +1,55 @@
+.three {
+  background-color: #F8F9FA;
+  width: 100%;
+  height: auto;
+  position: relative; }
+  @media (min-width: 768px) {
+    .three {
+      height: 768px;
+      width: 100%; } }
+  .three .top {
+    top: 100px; }
+  .three .info {
+    height: 100%; }
+    @media (min-width: 768px) {
+      .three .info {
+        display: inline-block;
+        padding: 0 30px;
+        width: 40%;
+        float: left;
+        position: relative; } }
+    .three .info .box-title {
+      color: #282B31;
+      font-family: "Nunito Sans";
+      font-size: 36px;
+      line-height: 54px;
+      text-align: left;
+      margin: 50px 0 40px; }
+      .three .info .box-title .bold {
+        font-weight: 800; }
+    .three .info .box-info {
+      color: #676C75;
+      font-family: "Nunito Sans";
+      font-size: 16px;
+      line-height: 28px;
+      text-align: left;
+      margin: 10px 0 40px; }
+      @media (min-width: 768px) {
+        .three .info .box-info {
+          display: inline-block; } }
+  .three .img {
+    height: auto; }
+    @media (min-width: 768px) {
+      .three .img {
+        right: 5px;
+        overflow: hidden;
+        height: 600px;
+        width: 50%;
+        display: inline;
+        position: absolute; } }
+    .three .img .win {
+      content: url("Window-2.png");
+      height: 80%; }
+      @media (max-width: 767px) {
+        .three .img .win {
+          width: 95%; } }
