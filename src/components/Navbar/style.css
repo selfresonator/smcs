@@ -42,15 +42,15 @@
   left: 0; }
 
 .navbar-normal .menu-overlay .menu-btn-close {
-  color: #7FB8B3;
+  color: #FFFFFF;
   font-size: 1.9em;
   position: absolute;
   top: 20px;
   right: 26px; }
 
 .navbar-normal .menu-overlay a {
-  text-decoration: none;
-  color: silver; }
+  color: #FFFFFF;
+  text-decoration: none; }
 
 .navbar-normal .menu-btn {
   color: #7FB8B3;

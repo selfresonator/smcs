@@ -1,5 +1,5 @@
 $bg: #BADDD9;
-$bg: #BADDD9;
+$plain-white: #FFFFFF;
 $text: #F8F9FA;
 $nav-text: #7FB8B3;
 
@@ -21,7 +21,7 @@ $nav-text: #7FB8B3;
     .title {
         display: inline-block;
         position: absolute;
-        color: #FFFFFF;
+        color: $plain-white;
         font-family: "Nunito Sans";
         font-size: 22px;
         font-weight: 800;
@@ -49,7 +49,7 @@ $nav-text: #7FB8B3;
         left: 0;
 
         .menu-btn-close {
-            color: $nav-text;
+            color: $plain-white;
             font-size: 1.9em;
             position: absolute;
             top: 20px;
@@ -57,8 +57,8 @@ $nav-text: #7FB8B3;
         }
 
         a {
+            color: $plain-white;
             text-decoration: none;
-            color: silver;
         }
     }
 
